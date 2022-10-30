@@ -35,3 +35,4 @@ gpu = os.popen("lspci -nn | grep VGA").read() # Gets name of gpu
 # ADD GPU SELECTOR (LOOK AT VM SELECTOR)
 gpu_choice = print("Select your gpu:")
 print(gpu)
+#e
